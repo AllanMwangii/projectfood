@@ -52,3 +52,33 @@ h1.title:hover{
     text-decoration: underline;
     color: brown;
 }
+
+/*Styling the image*/
+.main-img{
+    width: 100%; /*makes the images full-width*/
+    height: 50vh; /*defines the height of an image in vertical height units*/
+}
+
+
+/*styling the image inside table*/
+table img{
+    height: 500px;
+    width: 400px;
+}
+table img:hover{
+    opacity: 5; /*On hovering the image, blur the image to 0.5*/
+    transform: scale(1.005); /*Increase the width and height of the image by 1.005*/
+    transition: ease-in 2s; /*Dictates method and time taken for the transformation to occur*/
+}
+
+/* credits section*/
+.credits{
+    background-color: brown;
+    padding: 30px;
+    color: white;
+    font-size: 24px;
+}
+.credits:hover{
+    transform: rotate(15deg);
+    transition: ease-in-out 10ms;
+}
